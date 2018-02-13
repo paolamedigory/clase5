@@ -20,17 +20,17 @@ footer:after,
 
 
 body {
-	font-size: 16px;
+	font-size: 30px;
 	line-height: 1.5;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: Montserrat, sans-serif;
 	color: #272727;
 	background: rgb(247,251,252);
-	background: -moz-linear-gradient(top,  rgb(238, 255, 204) 0%, rgb(221, 255, 153) 40%, rgb(213, 255, 128) 100%);
+	background: -moz-linear-gradient(top,  rgb(238, 255, 204) 0%, rgb(221, 255, 153) 40%, rgb(119, 255, 51) 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(221, 255, 153)), color-stop(40%,rgba(217,237,242,1)), color-stop(100%,rgba(173,217,228,1)));
-	background: -webkit-linear-gradient(top,  rgb(238, 255, 204) 0%,rgb(221, 255, 153) 40%,rgb(213, 255, 128) 100%);
-	background: -o-linear-gradient(top,  rgb(238, 255, 204) 0%,rgb(221, 255, 153) 40%,rgb(213, 255, 128) 100%);
-	background: -ms-linear-gradient(top,  rgb(238, 255, 204) 0%,rgb(221, 255, 153) 40%,rgb(213, 255, 128) 100%);
-	background: linear-gradient(top,  rgb(238, 255, 204) 0%,rgb(2221, 255, 153) 40%,rgb(213, 255, 128) 100%);
+	background: -webkit-linear-gradient(top,  rgb(238, 255, 204) 0%,rgb(221, 255, 153) 40%,rgb(119, 255, 51) 100%);
+	background: -o-linear-gradient(top,  rgb(238, 255, 204) 0%,rgb(221, 255, 153) 40%,rgb(119, 255, 51) 100%);
+	background: -ms-linear-gradient(top,  rgb(238, 255, 204) 0%,rgb(221, 255, 153) 40%,rgb(119, 255, 51) 100%);
+	background: linear-gradient(top,  rgb(238, 255, 204) 0%,rgb(2221, 255, 153) 40%,rgb(119, 255, 51) 100%);
 }
 
 header, footer, article, section, nav, {
@@ -88,7 +88,7 @@ h3 {
 }
 
 p {
-	font-family: 'Vollkorn', serif;
+	font-family: Montserrat, serif;
 	margin-bottom: 24px;
 }
 
@@ -131,7 +131,7 @@ nav a {
 	color:#565656;
 	display: block;
 	font-size:12px;
-	margin:5px 2px;
+	margin:10px 5px;
 	padding:10px 10px 8px;
 	text-transform:uppercase;
 	font-weight: bold;
@@ -297,12 +297,48 @@ img.right {
  	display: block;	
 }
 
+.gallery.custom a{
+	width: 200px;
+	height: 200px;
+    background-size: contain;
+}
+
+#imgUno{
+	background-image: url(../imagenes/girasoles.jpg);
+}
+
+#imgDos{
+	background-image: url(../imagenes/mountain.jpg);
+}
+#imgTres{
+	background-image: url(../imagenes/tree.jpeg);
+}
+#imgCuatro{
+	background-image: url(../imagenes/roses.jpg);
+}
+#imgCinco{
+	background-image: url(../imagenes/umbrella.jpg);
+}
+#imgSeis{
+	background-image: url(../imagenes/venice.jpg);
+}
+#imgSiete{
+	background-image: url(../imagenes/woman.jpg);
+}
+#imgOcho{
+	background-image: url(../imagenes/remolino.jpg);
+}
+
 .gallery a img { 
   -webkit-transition: all 0.5s ease-in-out; 
      -moz-transition: all 0.5s ease-in-out; 
       -ms-transition: all 0.5s ease-in-out; 
        -o-transition: all 0.5s ease-in-out; 
           transition: all 0.5s ease-in-out;
+          height: 200px;
+          width:200px;
+          border-radius: 0;
+          max-width: 100;
 
 }
 
